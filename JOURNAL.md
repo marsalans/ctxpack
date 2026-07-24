@@ -22,9 +22,9 @@
 
 ---
 
-### 3. Something Claude Code got wrong or confidently misled us on, and how we caught it
+### 3. Something Google Gemini Antigravity got wrong or confidently misled us on, and how we caught it
 
-- **The Issue:** Claude Code initially suggested calculating truncation character limits using `len(text) // 4`, assuming 1 token strictly equals 4 characters in reverse.
+- **The Issue:** Google Gemini Antigravity initially suggested calculating truncation character limits using `len(text) // 4`, assuming 1 token strictly equals 4 characters in reverse.
 - **How We Caught It:** Tested an oversized file near the budget edge and discovered the final packed bundle exceeded `--budget` by 2 tokens. Because `math.ceil(len(text) / 4)` round-up behavior means a 5-character string counts as 2 tokens (not 1 token), simple character multiplication over-allocated content.
 - **Fix:** Implemented an exact character slice fine-tuning loop that verifies `math.ceil(len(bundle) / 4) <= budget` directly on the rendered output string before finalizing the truncated section.
 

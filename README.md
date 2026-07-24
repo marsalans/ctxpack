@@ -168,6 +168,10 @@ ctxpack/
 ├── SPEC.md         # Technical specification document
 ├── ctxpack.py      # Core CLI tool implementation
 ├── README.md       # Project documentation & quickstart
+├── GEMINI.md       # Agent instructions for Google Gemini Antigravity
+├── CLAUDE.md       # Context engineering file for AI assistants
+├── PROMPTS.md      # Key engineering prompts log
+├── JOURNAL.md      # Hackathon reflection journal
 ├── manifest.json   # Sample generated manifest JSON
 └── bundle.md       # Sample generated Markdown bundle
 ```
