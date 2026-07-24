@@ -29,7 +29,7 @@ No `pip install` required. Requires **Python 3.10+**.
 
 ```bash
 # Clone repository
-git clone https://github.com/user/ctxpack.git
+git clone https://github.com/marsalans/ctxpack.git
 cd ctxpack
 
 # Run directly
