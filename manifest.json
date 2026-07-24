@@ -1,0 +1,30 @@
+{
+  "budget": 5000,
+  "used": 5000,
+  "included": [
+    {
+      "path": "SPEC.md",
+      "tokens": 968,
+      "reason": "relevance score: 45.0 (truncated)"
+    },
+    {
+      "path": "ctxpack.py",
+      "tokens": 4010,
+      "reason": "relevance score: 55.0"
+    }
+  ],
+  "excluded": [
+    {
+      "path": ".git",
+      "reason": "noise directory"
+    },
+    {
+      "path": "bundle.md",
+      "reason": "generated output file"
+    },
+    {
+      "path": "manifest.json",
+      "reason": "generated output file"
+    }
+  ]
+}
