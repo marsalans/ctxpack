@@ -201,6 +201,9 @@ python ctxpack.py --path ./invalid_folder --task "test" --budget 1000
 
 ## Example screenshots
 
+<img width="1152" height="100" alt="Screenshot 2026-07-27 205244" src="https://github.com/user-attachments/assets/b34984dd-ffc3-4eb6-ab26-fb9939687e6c" />
+<img width="1146" height="622" alt="Screenshot 2026-07-27 205216" src="https://github.com/user-attachments/assets/e827eae4-05d4-41d7-b39f-49b1422c293d" />
+
 ### Terminal Summary Execution
 ```
 $ python ctxpack.py --path . --task "context packing tool" --budget 5000 --out bundle.md --manifest manifest.json
